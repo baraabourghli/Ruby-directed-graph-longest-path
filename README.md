@@ -4,6 +4,7 @@ numbers may repeat, and shall not be sorted.
 
 an example of a route: 1 - 19 - 56
 example of the pyramid :  
+
              1
              
            /   \
