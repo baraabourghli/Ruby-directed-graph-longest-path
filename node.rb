@@ -19,9 +19,9 @@ class Node
   end
 
   def non_visited_children
-    if @left_child.present? && !@left_child.visited?
+    if !@left_child.nil? && !@left_child.visited?
       @left_child
-    elsif @right_child.present? && !@right_child.visited?
+    elsif !@right_child.nil? && !@right_child.visited?
       @right_child
     else
         nil
